@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Um convite especial</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            background: linear-gradient(135deg, #fce4ec, #f8bbd0);
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            text-align: center;
+        }
+        .container {
+            background: white;
+            padding: 40px;
+            border-radius: 25px;
+            box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+            max-width: 80%;
+            animation: fadeIn 2s ease-in;
+        }
+        h1 { color: #d81b60; margin-bottom: 20px; }
+        p { color: #555; line-height: 1.6; font-size: 1.3rem; }
+        .heart { color: #e91e63; font-size: 3rem; margin: 20px 0; transition: 0.3s; }
+        .heart:hover { transform: scale(1.2); cursor: pointer; }
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(20px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h1>Oi! 😊</h1>
+        <p>
+            Passando aqui pra te fazer um convite:<br>
+            <strong> Aceita jantar comigo? </strong>
+        </p>
+        <div class="heart">❤️</div>
+        <p>Adoraria ter a sua companhia e aproveitar o momento com você</p>
+    </div>
+
+</body>
+</html>
